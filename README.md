@@ -1,4 +1,4 @@
-# python3nmap_GUI_for_Beginners
+# python3-nmap_GUI_for_Beginners
 Use nmap library in GUI and Python(You must install "PySimpleGUI" and "python3-nmap" via pip)  
 
 ![GUI_IMAGE](GUI_IMAGE.webp)
