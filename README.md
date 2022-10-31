@@ -37,6 +37,6 @@ Use nmap library in GUI and Python(You must install "PySimpleGUI" and "python3-n
 ・UDP Scan
 
 ## References
-#About PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI  
-#About python3-nmap: https://pypi.org/project/python3-nmap/  
-#About Nmap: https://nmap.org/download.html  
+・About PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI  
+・bout python3-nmap: https://pypi.org/project/python3-nmap/  
+・About Nmap: https://nmap.org/download.html  
