@@ -2,7 +2,7 @@
 ## Summary
 Use nmap library in GUI and Python(You must install "PySimpleGUI" and "python3-nmap" via pip)  
 
-## Image
+## GUI Image
 ![GUI_IMAGE](GUI_IMAGE.webp)
 
 ## Note
