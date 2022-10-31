@@ -10,19 +10,31 @@ Use nmap library in GUI and Python(You must install "PySimpleGUI" and "python3-n
 [info] Some functions(udp_scan, os_detection,subnet_scan) must run with root privilege at the same case of the Nmap.
 
 ## Functions List
-・Nmap Version<br>
-・Scan Top Ports<br>
-・DNS Brute Script<br>
-・List Scan<br>
-・OS Detection<br>　
-・Subnet Scan<br>　
-・Nmap Version Detection<br>
-・FIN Scan<br>
-・Idle Packet<br>　
-・Ping Scan<br>
-・SYN Scan<br>
-・TCP Scan<br>
-・UDP Scan<br>
+・Nmap Version
+
+・Scan Top Ports
+
+・DNS Brute Script
+
+・List Scan
+
+・OS Detection
+
+・Subnet Scan
+
+・Nmap Version Detection
+
+・FIN Scan
+
+・Idle Packet
+
+・Ping Scan
+
+・SYN Scan
+
+・TCP Scan
+
+・UDP Scan
 
 ## References
 #About PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI  
