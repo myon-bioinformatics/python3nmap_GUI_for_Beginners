@@ -38,5 +38,5 @@ Use nmap library in GUI and Python(You must install "PySimpleGUI" and "python3-n
 
 ## References
 ・About PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI  
-・bout python3-nmap: https://pypi.org/project/python3-nmap/  
+・About python3-nmap: https://pypi.org/project/python3-nmap/  
 ・About Nmap: https://nmap.org/download.html  
