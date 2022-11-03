@@ -5,7 +5,7 @@ Use nmap library in GUI and Python(You must install "PySimpleGUI" and "python3-n
 ## GUI Image
 ![GUI_IMAGE](GUI_IMAGE.webp)
 
-## Note
+## Note/Warning
 > **Note** When you use python-nmap3, you must install nmap at any OS in advance.  
 
 > **Warning** Some functions(udp_scan, os_detection,subnet_scan) must run with root privilege at the same case of the Nmap.
