@@ -1,6 +1,6 @@
 # python3-nmap_GUI_for_Beginners
 ## Summary
-Use nmap library in GUI and Python
+__Use nmap library in GUI and Python__
 
 ## GUI Image
 ![GUI_IMAGE](GUI_IMAGE.webp)
