@@ -31,3 +31,4 @@ __Use nmap library in GUI and Python__
 - About PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI  
 - About python3-nmap: https://pypi.org/project/python3-nmap/  
 - About Nmap: https://nmap.org/download.html  
+- Comparison chart: https://speakerdeck.com/myon_bioinformatics/what-is-python3-nmap-for-beginners
