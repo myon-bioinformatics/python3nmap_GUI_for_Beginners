@@ -7,6 +7,7 @@ __Use nmap library in GUI and Python__
 [![CodeQL](https://github.com/myon-bioinformatics/python3nmap_GUI_for_Beginners/actions/workflows/codeql.yml/badge.svg)](https://github.com/myon-bioinformatics/python3nmap_GUI_for_Beginners/actions/workflows/codeql.yml)
 
 ![GitHub followers](https://img.shields.io/github/followers/myon-bioinformatics?style=social)
+[![Reddit User Karma](https://img.shields.io/reddit/user-karma/link/myon_reddit?style=social)](https://www.reddit.com/user/myon_reddit/)
 
 
 
