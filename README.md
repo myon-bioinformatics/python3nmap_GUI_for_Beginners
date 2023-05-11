@@ -4,8 +4,15 @@ __Use nmap library in GUI and Python__
 
 ![GitHub license](https://img.shields.io/github/license/myon-bioinformatics/python3nmap_GUI_for_Beginners)
 ![GitHub last commit](https://img.shields.io/github/last-commit/myon-bioinformatics/python3nmap_GUI_for_Beginners)
+![GitHub watchers](https://img.shields.io/github/watchers/myon-bioinformatics/python3nmap_GUI_for_Beginners?style=social)
+
+![GitHub followers](https://img.shields.io/github/followers/myon-bioinformatics?style=social)
 
 [![CodeQL](https://github.com/myon-bioinformatics/python3nmap_GUI_for_Beginners/actions/workflows/codeql.yml/badge.svg)](https://github.com/myon-bioinformatics/python3nmap_GUI_for_Beginners/actions/workflows/codeql.yml)
+
+![Twitter Follow](https://img.shields.io/twitter/follow/myonitbusiness?style=social)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/myon123?style=social)
+
 ## GUI Image
 ![GUI_IMAGE](GUI_IMAGE.webp)
 
