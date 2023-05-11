@@ -12,6 +12,7 @@ __Use nmap library in GUI and Python__
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/myonitbusiness?style=social)
 ![Mastodon Follow](https://img.shields.io/mastodon/follow/myon123?style=social)
+![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/myon_reddit?style=social)
 
 ## GUI Image
 ![GUI_IMAGE](GUI_IMAGE.webp)
