@@ -10,7 +10,7 @@
 The example in `python3nmap_gui.py` combines:
 
 - `python3-nmap` / `nmap3`
-- PySimpleGUI
+- FreeSimpleGUI
 - a locally installed Nmap executable
 
 The original GUI screenshot is retained in `GUI_IMAGE.webp`.
@@ -20,9 +20,9 @@ The original GUI screenshot is retained in `GUI_IMAGE.webp`.
 For reproducibility, the final archived Python dependency snapshot is recorded in `requirements.txt`:
 
 - `python3-nmap==1.9.1`
-- `PySimpleGUI==6.3.0.1`
+- `FreeSimpleGUI==5.3.0.post1`
 
-PySimpleGUI is again available as open-source v6 on PyPI. This repository does **not** claim that every historical widget/behavior has been revalidated against that release.
+The historical PySimpleGUI import has been replaced with the open-source FreeSimpleGUI fork for the final archived snapshot. This repository does **not** claim that every historical widget/behavior has been revalidated against that release.
 
 Install the recorded Python dependencies with:
 
@@ -41,7 +41,7 @@ This archive does not perform live-network CI because Nmap behavior depends on t
 ## References
 
 - python3-nmap: https://pypi.org/project/python3-nmap/
-- PySimpleGUI: https://pypi.org/project/PySimpleGUI/
+- FreeSimpleGUI: https://pypi.org/project/FreeSimpleGUI/
 - Nmap: https://nmap.org/
 
 ## Repository status
