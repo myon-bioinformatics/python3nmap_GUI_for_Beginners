@@ -1,2 +1,2 @@
 python3-nmap==1.9.1
-PySimpleGUI==6.3.0.1
+FreeSimpleGUI==5.3.0.post1
