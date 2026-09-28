@@ -1,45 +1,49 @@
-# python3-nmap_GUI_for_Beginners
-## Summary
-__Use nmap library in GUI and Python__
+# python3-nmap GUI for Beginners
 
-![GitHub license](https://img.shields.io/github/license/myon-bioinformatics/python3nmap_GUI_for_Beginners)
-![GitHub last commit](https://img.shields.io/github/last-commit/myon-bioinformatics/python3nmap_GUI_for_Beginners)
-[![CodeQL](https://github.com/myon-bioinformatics/python3nmap_GUI_for_Beginners/actions/workflows/codeql.yml/badge.svg)](https://github.com/myon-bioinformatics/python3nmap_GUI_for_Beginners/actions/workflows/codeql.yml)
+> [!IMPORTANT]
+> **Archived / no longer actively maintained.**
+>
+> This repository is preserved as a historical beginner-oriented example of wrapping Nmap with Python and a desktop GUI. No further feature development or compatibility maintenance is planned.
 
-[![GitHub followers](https://img.shields.io/github/followers/myon-bioinformatics?style=social)](https://github.com/myon-bioinformatics)
-[![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/myon_reddit?style=social)](https://www.reddit.com/user/myon_reddit/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/myonitbusiness?style=social)](https://twitter.com/myonitbusiness)
+## Historical purpose
 
+The example in `python3nmap_gui.py` combines:
 
+- `python3-nmap` / `nmap3`
+- PySimpleGUI
+- a locally installed Nmap executable
 
+The original GUI screenshot is retained in `GUI_IMAGE.webp`.
 
-## GUI Image
-![GUI_IMAGE](GUI_IMAGE.webp)
+## Final dependency snapshot
 
-## Note/Warning
-> __Note__ You must install "PySimpleGUI" and "python3-nmap" via pip  
+For reproducibility, the final archived Python dependency snapshot is recorded in `requirements.txt`:
 
-> **Note** When you use python-nmap3, you must install nmap at any OS in advance.  
+- `python3-nmap==1.9.1`
+- `PySimpleGUI==6.3.0.1`
 
-> **Warning** Some functions(udp_scan, os_detection,subnet_scan) must run with root privilege at the same case of the Nmap.
+PySimpleGUI is again available as open-source v6 on PyPI. This repository does **not** claim that every historical widget/behavior has been revalidated against that release.
 
-## Functions List
-- Nmap Version
-- Scan Top Ports
-- DNS Brute Script
-- List Scan
-- OS Detection
-- Subnet Scan
-- Nmap Version Detection
-- FIN Scan
-- Idle Packet
-- Ping Scan
-- SYN Scan
-- TCP Scan
-- UDP Scan
+Install the recorded Python dependencies with:
+
+```console
+python -m pip install -r requirements.txt
+```
+
+You must also install **Nmap** separately on the operating system.
+
+## Operational caveats
+
+Some Nmap operations require elevated privileges. Historical functions in this repository include OS detection, SYN/FIN/UDP scans, subnet scanning, ping scanning, version detection, and related Nmap operations. Only scan systems and networks you are authorized to test.
+
+This archive does not perform live-network CI because Nmap behavior depends on the host OS, installed Nmap version, permissions, and network environment.
 
 ## References
-- About PySimpleGUI: https://github.com/PySimpleGUI/PySimpleGUI  
-- About python3-nmap: https://pypi.org/project/python3-nmap/  
-- About Nmap: https://nmap.org/download.html  
-- Comparison chart: https://speakerdeck.com/myon_bioinformatics/what-is-python3-nmap-for-beginners
+
+- python3-nmap: https://pypi.org/project/python3-nmap/
+- PySimpleGUI: https://pypi.org/project/PySimpleGUI/
+- Nmap: https://nmap.org/
+
+## Repository status
+
+No further dependency automation, CodeQL schedules, bot-driven maintenance, or feature work is planned. The repository is intended to remain public and read-only after GitHub archival.
