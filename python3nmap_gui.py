@@ -1,5 +1,5 @@
 import nmap3
-import PySimpleGUI as sg #use for GUI creating
+import FreeSimpleGUI as sg #use for GUI creating
 from pprint import pformat #dict to str
 
 #====Initialize====
@@ -169,6 +169,6 @@ while True:
         udp_scan(dst)
 window.close()
 
-#PySimpleGUI Reference: https://github.com/PySimpleGUI/PySimpleGUI
+#FreeSimpleGUI Reference: https://github.com/spyoungtech/FreeSimpleGUI
 #python3-nmap Reference: https://pypi.org/project/python3-nmap/
 #Nmap Reference: https://nmap.org/download.html
